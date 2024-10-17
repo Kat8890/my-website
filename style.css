@@ -1,0 +1,25 @@
+/*controls style of website*/
+
+body {
+    font-family: Arial, sans-serif; /*controls font of website*/
+    background-color: #aa77ed; /*controls background color of website*/
+    color: #333; /*controls color of text*/
+    text-align: center; /*controls alignment of text*/
+}
+
+/*Header h1 styles*/
+
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin: 20px;
+}
+
+/*Paragraph p styles*/
+
+p {
+   font-size: 1.5em;
+   margin: 15px;
+   max-width: 600px;
+   line-height: 1.6;
+}
