@@ -72,7 +72,7 @@ p {
     width: 100%; /* Make the paragraph take the full width */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    text-align: left; /* Align text to the left (optional) */
+    text-align: center; /* Align text to the left (optional) */
     color: #666; /* Lighter color for paragraph text */
     line-height: 1.6; /* Improved readability */
 }
