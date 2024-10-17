@@ -69,10 +69,21 @@ p {
 }
 
 #about p {
-    color: #666; /* Lighter color for the paragraph text */
+    width: 100%; /* Make the paragraph take the full width */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: left; /* Align text to the left (optional) */
+    color: #666; /* Lighter color for paragraph text */
     line-height: 1.6; /* Improved readability */
 }
 
 .hidden {
     display: none; /* Hide the element */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+    border-radius: 5px; /* Rounded corners */
 }
