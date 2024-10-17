@@ -21,5 +21,13 @@
         <h2>About This Website</h2>
         <p>This website is designed to showcase my projects and skills. Here, you will find information about my work, interests, and how to contact me. I aim to provide a user-friendly experience and share my passion for web development.</p>
     </section>
+
+    <script>
+        document.getElementById('about-link').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent default anchor behavior
+            const aboutSection = document.getElementById('about');
+            aboutSection.classList.toggle('hidden'); // Toggle visibility
+        });
+    </script>
 </body>
 </html>

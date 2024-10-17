@@ -72,3 +72,7 @@ p {
     color: #666; /* Lighter color for the paragraph text */
     line-height: 1.6; /* Improved readability */
 }
+
+.hidden {
+    display: none; /* Hide the element */
+}
