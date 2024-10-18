@@ -23,7 +23,21 @@
             </div>
         </div>
     </nav>
-    <h1>Login Page</h1>
-    <!-- Add your login form here -->
+    
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="#" method="POST"> <!-- Placeholder action -->
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="/my-website/get-started.html">Get Started</a></p>
+    </div>
 </body>
 </html>

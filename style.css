@@ -96,3 +96,42 @@ section {
     background-color: #f4f4f4; /* Light background for contrast */
     border-radius: 5px; /* Rounded corners */
 }
+
+.login-container {
+    max-width: 400px; /* Set a max width for the form */
+    margin: 50px auto; /* Center the form on the page */
+    padding: 20px;
+    border: 1px solid #ccc; /* Border around the form */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+input {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    width: 100%; /* Full width for the button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #555; /* Darker background on hover */
+}
