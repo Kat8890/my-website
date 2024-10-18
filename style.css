@@ -8,36 +8,45 @@ body {
 }
 
 nav {
-    background-color: #333;
-    padding: 10px;
+    background-color: #333; /* Background color for the nav */
+    padding: 10px 20px; /* Padding for the nav */
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0; /* Added to remove default margin */
+.nav-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo, menu, and right links */
+    align-items: center; /* Center items vertically */
+}
+
+.logo img {
+    height: 50px; /* Adjust the height of the logo */
+}
+
+.nav-menu {
+    list-style-type: none; /* Remove default list styling */
     display: flex; /* Use flexbox for horizontal layout */
-    justify-content: center; /* Center the items */
+    justify-content: center; /* Center the menu items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
-nav ul li {
-    margin-right: 20px; /* Space between items */
+.nav-menu li {
+    margin: 0 15px; /* Space between menu items */
 }
 
-nav ul li:last-child {
-    margin-right: 0; /* Remove margin from the last item */
+.nav-menu a {
+    color: white; /* Text color for menu links */
+    text-decoration: none; /* Remove underline from links */
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px; /* Added padding for better click area */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+.nav-right {
+    display: flex; /* Use flexbox for right links */
 }
 
-nav a:hover {
-    background-color: #ed7785; /* Change background on hover */
-    border-radius: 5px; /* Rounded corners on hover */
+.nav-right a {
+    color: white; /* Text color for right links */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 20px; /* Space between right links */
 }
 
 /*Header h1 styles*/
