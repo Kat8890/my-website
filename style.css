@@ -177,14 +177,35 @@ label {
 
 /* Style for the remember me checkbox */
 .remember-me {
-    display: flex; /* Use flexbox for alignment */
-    align-items: left; /* Center items vertically */
-    margin-bottom: 15px; /* Space between form groups */
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
-.remember-me input {
-    margin-right: 10px; /* Space between checkbox and label */
+.remember-me input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remember-me input[type="checkbox"]:checked {
+    background-color: #333;
+    border-color: #333;
+}
+
+.remember-me input[type="checkbox"]:checked::before {
+    content: "\2713";
+    color: #fff;
+    font-size: 12px;
 }
 
 .remember-me label {
