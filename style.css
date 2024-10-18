@@ -173,10 +173,27 @@ label {
     background-color: #555; /* Darker background on hover */
 }
 
-/* Style for the remember me checkbox */
-.remember-me {
-    display: flex; /* Keep the checkbox and label together */
+/* Style for the remember me checkbox and forgot password */
+.remember-me-container {
+    display: flex; /* Use flexbox for alignment */
     align-items: center; /* Center items vertically */
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.remember-me-container input {
+    margin-right: 5px; /* Space between checkbox and label */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.remember-me-container label {
+    margin: 0 10px 0 0; /* Space between checkbox and label */
+    font-size: 14px; /* Adjust font size for the label */
+    color: #333; /* Set label color */
+}
+
+.forgot-password {
+    margin-left: auto; /* Push the forgot password link to the right */
+    font-size: 14px; /* Adjust the font size for the forgot password link */
 }
 
 .remember-me input[type="checkbox"] {

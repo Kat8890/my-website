@@ -26,24 +26,22 @@
     
     <div class="login-container">
         <h1>Login to your account</h1>
-        <p class="subheadline">Don't have an account? <a href="/my-website/get-started.html">Get Started</a></p>
+        <p class="subheadline">Don't have an account? <a href="/my-website/get-started.html">Get started here</a></p>
         <form action="#" method="POST"> <!-- Placeholder action -->
-            <div class="form-group email">
-                <input type="email" id="email" name="email" required placeholder=" ">
+            <div class="form-group">
+                <input type="email" id="email" name="email" required>
                 <label for="email">Email address</label>
             </div>
-            <div class="form-group password">
-                <input type="password" id="password" name="password" required placeholder=" ">
+            <div class="form-group">
+                <input type="password" id="password" name="password" required>
                 <label for="password">Password</label>
             </div>
-            <div class="form-group remember-me">
-                <div class="remember-me">
-                    <input type="checkbox" id="remember" name="remember">
-                    <label for="remember">Remember me</label>
-                </div>
+            <div class="form-group remember-me-container"> <!-- Updated class name -->
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember me</label>
                 <p class="forgot-password"><a href="#">Forgot password?</a></p>
             </div>
-            <button type="submit" class="login-button">Login with email</button>
+            <button type="submit" class="login-button">Login with Email</button>
         </form>
     </div>
 </body>
