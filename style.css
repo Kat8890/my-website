@@ -1,14 +1,14 @@
 /*controls style of website*/
 
 body {
-    font-family: Arial, sans-serif; /*controls font of website*/
+    font-family: Noto Sans, sans-serif; /*controls font of website*/
     background-color: #e4ebee; /*controls background color of website*/
     color: #333; /*controls color of text*/
     text-align: center; /*controls alignment of text*/
 }
 
 nav {
-    background-color: #ebdcdc; /* Background color for the nav */
+    background-color: #f4f4f4; /* Background color for the nav */
     padding: 10px 20px; /* Padding for the nav */
 }
 
