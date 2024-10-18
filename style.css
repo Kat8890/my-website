@@ -1,10 +1,10 @@
 /*controls style of website*/
 
 body {
-    font-family: Noto Sans, sans-serif; /*controls font of website*/
-    background-color: #e4ebee; /*controls background color of website*/
-    color: #333; /*controls color of text*/
-    text-align: center; /*controls alignment of text*/
+    font-family: Noto Sans, sans-serif; /* Set a default font */
+    background-color: #f4f4f4; /* Light background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 nav {
@@ -52,9 +52,7 @@ nav {
 /*Header h1 styles*/
 
 h1 {
-    color: #333;
-    font-size: 2em;
-    margin: 20px;
+    text-align: center; /* Center the headline */
 }
 
 /*Paragraph p styles*/
@@ -103,16 +101,18 @@ section {
     padding: 20px;
     border: 1px solid #ccc; /* Border around the form */
     border-radius: 5px; /* Rounded corners */
-    background-color: #f9f9f9; /* Light background color */
+    background-color: #fff; /* White background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.subheadline {
+    text-align: center; /* Center the subheadline */
+    margin-bottom: 20px; /* Space below the subheadline */
 }
 
 .form-group {
+    position: relative; /* Position relative for label positioning */
     margin-bottom: 15px; /* Space between form groups */
-}
-
-label {
-    display: block; /* Make labels block elements */
-    margin-bottom: 5px; /* Space between label and input */
 }
 
 input {
@@ -120,9 +120,34 @@ input {
     padding: 10px; /* Padding inside input fields */
     border: 1px solid #ccc; /* Border for input fields */
     border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for input */
 }
 
-button {
+input:focus {
+    border-color: #333; /* Change border color on focus */
+}
+
+label {
+    position: absolute; /* Position label inside the input */
+    left: 10px; /* Position label inside the input */
+    top: 10px; /* Position label inside the input */
+    color: #aaa; /* Grey color for label */
+    transition: 0.2s; /* Smooth transition */
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    top: -10px; /* Move label up when focused or filled */
+    left: 5px; /* Adjust left position */
+    font-size: 12px; /* Smaller font size */
+    color: #333; /* Darker color for label */
+}
+
+.forgot-password {
+    text-align: right; /* Align forgot password link to the right */
+}
+
+.login-button {
     width: 100%; /* Full width for the button */
     padding: 10px; /* Padding inside the button */
     background-color: #333; /* Button background color */
@@ -132,6 +157,6 @@ button {
     cursor: pointer; /* Pointer cursor on hover */
 }
 
-button:hover {
+.login-button:hover {
     background-color: #555; /* Darker background on hover */
 }

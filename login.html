@@ -25,19 +25,20 @@
     </nav>
     
     <div class="login-container">
-        <h1>Login</h1>
+        <h1>Login to your account</h1>
+        <p class="subheadline">Don't have an account? <a href="/my-website/get-started.html">Get Started</a></p>
         <form action="#" method="POST"> <!-- Placeholder action -->
             <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
+                <input type="email" id="email" name="email" required>
+                <label for="email">Email address</label>
             </div>
             <div class="form-group">
-                <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
+                <label for="password">Password</label>
             </div>
-            <button type="submit">Login</button>
+            <p class="forgot-password"><a href="#">Forgot password?</a></p>
+            <button type="submit" class="login-button">Login with Email</button>
         </form>
-        <p>Don't have an account? <a href="/my-website/get-started.html">Get Started</a></p>
     </div>
 </body>
 </html>
