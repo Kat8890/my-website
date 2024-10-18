@@ -128,7 +128,7 @@ section {
 
 input {
     width: 100%; /* Full width for input fields */
-    padding: 15px 10px 10px; /* Padding inside input fields */
+    padding-top: 20px; /* Padding inside input fields */
     border: 1px solid #ccc; /* Border for input fields */
     border-radius: 4px; /* Rounded corners */
     font-size: 16px; /* Adjust the font size for input fields */
@@ -141,15 +141,15 @@ input:focus {
 label {
     position: absolute; /* Position label inside the input */
     left: 10px; /* Position label inside the input */
-    top: 15px; /* Position label inside the input */
+    top: 10px; /* Position label inside the input */
     color: #aaa; /* Grey color for label */
     transition: 0.2s; /* Smooth transition */
     font-size: 14px; /* Adjust the font size for labels */
 }
 
-input:focus + label,
-input:not(:placeholder-shown) + label {
-    top: -10px; /* Move label up when focused or filled */
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+    top: 5px; /* Move label up when focused or filled */
     left: 5px; /* Adjust left position */
     font-size: 12px; /* Smaller font size */
     color: #333; /* Darker color for label */
