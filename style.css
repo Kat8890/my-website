@@ -178,7 +178,7 @@ label {
 /* Style for the remember me checkbox */
 .remember-me {
     display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Center items vertically */
+    align-items: left; /* Center items vertically */
     margin-bottom: 15px; /* Space between form groups */
 }
 
