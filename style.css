@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color: #333; /* Background color for the nav */
+    background-color: #ebdcdc; /* Background color for the nav */
     padding: 10px 20px; /* Padding for the nav */
 }
 
@@ -35,7 +35,7 @@ nav {
 }
 
 .nav-menu a {
-    color: white; /* Text color for menu links */
+    color: black; /* Text color for menu links */
     text-decoration: none; /* Remove underline from links */
 }
 
@@ -44,7 +44,7 @@ nav {
 }
 
 .nav-right a {
-    color: white; /* Text color for right links */
+    color: black; /* Text color for right links */
     text-decoration: none; /* Remove underline from links */
     margin-left: 20px; /* Space between right links */
 }
