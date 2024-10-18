@@ -122,10 +122,11 @@ section {
 /* Input styles */
 input {
     width: 100%; /* Full width for input fields */
-    padding-top: 20px; /* Padding inside input fields */
+    padding: 10px; /* Padding inside input fields */
     border: 1px solid #ccc; /* Border for input fields */
     border-radius: 4px; /* Rounded corners */
     font-size: 16px; /* Adjust the font size for input fields */
+    text-align: center; /* Center text horizontally */
 }
 
 input:focus {
@@ -223,4 +224,10 @@ label {
     margin: 0;
     font-size: 14px; /* Adjust font size for label */
     color: #333; /* Darker color for label */
+}
+
+/* Placeholder styling */
+input::placeholder {
+    color: #aaa; /* Color for placeholder text */
+    text-align: center; /* Center placeholder text */
 }
