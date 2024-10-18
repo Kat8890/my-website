@@ -174,3 +174,14 @@ input:not(:placeholder-shown) + label {
 .login-button:hover {
     background-color: #555; /* Darker background on hover */
 }
+
+/* Style for the remember me checkbox */
+.remember-me {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.remember-me input {
+    margin-right: 0px; /* Space between checkbox and label */
+}
