@@ -72,6 +72,13 @@ p {
    line-height: 1.6;
 }
 
+#home p {
+    text-align: center; /* Center the text */
+    max-width: 800px; /* Set a maximum width for the paragraph */
+    margin: 0 auto; /* Center the paragraph block */
+    padding: 20px; /* Add some padding for better spacing */
+}
+
 #about {
     padding: 20px;
     background-color: #f4f4f4; /* Light background for contrast */
